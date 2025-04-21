@@ -12,6 +12,9 @@ pipeline {
 
                 echo 'Showing current date and time...'
                 sh 'date'
+
+                echo 'show location'
+                sh 'pwd'
             }
         }
     }
